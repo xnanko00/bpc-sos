@@ -28,8 +28,6 @@ remove `find /usr/lib/firmware -atime +2`
 
 find /boot -maxdepth 1 -type f -name *rescue* - delete
 grub2-mkconfig -o /boot/grub2/grub.cfg
-
-rm 
 ```
 
 následne sme zmazali jazykové balíčky tak že sme v zložke `/usr/share/locale` postupne mazali balíčky príkazom rm -rfv a* až po z* okrem e* kde sme zmazali len všetky okrem používaných en_US
